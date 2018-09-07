@@ -1,7 +1,10 @@
 
 /* Dispositivos extra pequenos (telefones, menor que 600px) */
 @media only screen and (max-width: 600px) {
-    .exemplo {background: blueviolet;}
+    .exemplo {
+        background: blueviolet;
+        border: solid black;        
+    }
 } 
 
 /* Dispositivos pequenos (Tablets e telefones grandes, maior que 600px) */
