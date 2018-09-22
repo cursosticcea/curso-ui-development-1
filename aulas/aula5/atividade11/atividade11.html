@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/atividade11.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="script/atividade11.js"></script>
+
+    <title>Atividade 11</title>
+</head>
+
+<body>
+
+    <h1 class="center mt-3">Atividade
+        <span class="badge badge-secondary mb-5">11</span>
+    </h1>
+
+    <div class="row mt-5 mb-5 center">
+        <div class="col-4">
+            <button type="button" class="btn btn-primary" onclick="mostrarTexto()">Mostrar Texto</button>
+        </div>
+
+        <div class="col-4">
+            <button type="button" class="btn btn-success" onclick="ocultarTexto()">Ocultar Texto</button>
+        </div>
+
+        <div class="col-4">
+            <button type="button" class="btn btn-danger" onclick="trocarCor()">Trocar Cor</button>
+        </div>
+    </div>
+
+
+    <h2 id="texto" class="center">Eu sou um texto legal!!!</h2>
+
+
+
+    <div class="row">
+        <div class="col-10">
+            <label>Trocar Texto</label>
+            <input id="textoInput" class="form-control" placeholder="Digite o texto">
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-dark h-100" onclick="trocarTexto()">Trocar Texto</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
