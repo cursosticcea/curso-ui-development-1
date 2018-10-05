@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 13</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+
+    <h1 style="text-align: center">Calculadora Karan</h1>
+    <form>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input id="numero1" type="number" class="form-control" placeholder="Número 1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input id="numero2" type="number" class="form-control" placeholder="Número 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <select id="operacao" class="form-control">
+                    <option>Selecione</option>
+                    <option value="ADICAO">+</option>
+                    <option value="SUBTRACAO">-</option>
+                    <option value="MULTIPLICACAO">*</option>
+                    <option value="DIVISAO">/</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary w-100" onclick="btnCalcular()">Calcular</button>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="resultado">Resultado: </h2>
+                </div>
+
+            </div>
+    </form>
+
+
+</body>
+
+</html>
