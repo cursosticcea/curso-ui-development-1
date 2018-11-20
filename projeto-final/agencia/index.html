@@ -373,33 +373,37 @@
         </div>
       </div>
       <form action="https://formspree.io/ui.development2018@gmail.com" method="POST" target="_blank">
-      <label>
         <div class="row">
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Seu Nome *" required="required"
-                      data-validation-required-message="Por Favor Informe seu Nome.">
-                    <p class="help-block text-danger"></p>
+                    <label>
+                      <input class="form-control" id="name" type="text" placeholder="Seu Nome *" required="required"
+                        data-validation-required-message="Por Favor Informe seu Nome.">
+                      <p class="text"></p>
+                    </label>
                   </div>
                   <div class="form-group">
+                      <label>
                     <input class="form-control" id="email" type="email" placeholder="Seu Email *" required="required"
                       data-validation-required-message="Por Favor Informe seu Email.">
-                    <p class="help-block text-danger"></p>
+                    <p class="email"></p>
                   </div>
                   <div class="form-group">
+                      <label>
                     <input class="form-control" id="phone" type="tel" placeholder="Seu Número *" required="required"
                       data-validation-required-message="Por Favor Informe seu Número.">
-                    <p class="help-block text-danger"></p>
+                    <p class="subject"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
+                      <label>
                     <textarea class="form-control" id="message" placeholder="Sua Mensagem *" required="required"
                       data-validation-required-message="Por Favor Informe sua Mensagen."></textarea>
-                    <p class="help-block text-danger"></p>
+                    <p class="message"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
@@ -411,7 +415,6 @@
             </form>
           </div>
         </div>
-      </label>
       </form>
     </div>
   </section>
