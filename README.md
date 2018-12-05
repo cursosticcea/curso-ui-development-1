@@ -5,18 +5,18 @@ Esse projeto teve apoio do [Centro Cultural Escrava Anastácia](http://ccea.org.
 
 
 #### Ementa
-| Aula   |      Tema          |  Data      |
-|:-:|:-----------------------:|:----------:|
-| 1 |  Introdução e HTML 5    | 18/08/2018 |
-| 2 |  CSS                    | 25/08/2018 |
-| 3 |  CSS + Bootstrap        | 01/09/2018 |
-| 4 |  Bootstrap + Design     | 15/09/2018 |
-| 5 |  JavaScript             | 22/09/2018 |
-| 6 |  JavaScript             | 29/09/2018 |
-| 7 |  jQuery + Projeto Final | 06/10/2018 |
-| 8 |  Projeto Final          | 20/10/2018 |
-| 9 |  Projeto Final          | 20/10/2018 |
-|10 |  Projeto Final          | 10/11/2018 |
+| Aula   |      Tema            |  Data      |
+|:-:|:-------------------------:|:----------:|
+| 1 |  Introdução, HTML 5 e Git | 18/08/2018 |
+| 2 |  CSS                      | 25/08/2018 |
+| 3 |  CSS + Bootstrap          | 01/09/2018 |
+| 4 |  Bootstrap + Design       | 15/09/2018 |
+| 5 |  JavaScript               | 22/09/2018 |
+| 6 |  JavaScript               | 29/09/2018 |
+| 7 |  jQuery + Projeto Final   | 06/10/2018 |
+| 8 |  Projeto Final            | 20/10/2018 |
+| 9 |  Projeto Final            | 20/10/2018 |
+|10 |  Projeto Final            | 10/11/2018 |
 
 
 * [Blog do curso](https://cursosticcea.github.io/curso-ui-development-1/projeto-final/blog/index.html)
